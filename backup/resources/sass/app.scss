@@ -1,0 +1,93 @@
+@import "~bulma/sass/utilities/_all";
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
+
+[data-label="Notes"] {
+    word-break: break-all;
+}
+
+.container {
+    width: 70%;
+    max-width: 70%;
+}
+
+.card {
+    margin: 1em 0;
+}
+
+.navbar {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.11) 0px 1px 3px;
+    padding: 0;
+    height: 93px;
+
+    .container {
+        height: 100%;
+    }
+
+    .navbar-brand {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        margin-left: 0 !important;
+
+        img {
+            height: 70px;
+        }
+    }
+
+    .navbar-menu {
+        height: 100%;
+
+        .navbar-start .navbar-item {
+            margin-left: 30px;
+        }
+
+        .navbar-end .navbar-item {
+            margin-left: 30px;
+        }
+
+        .navbar-link,
+        .navbar-item {
+            &::after {
+                border-color: #87c450;
+            }
+
+            &.active,
+            &:hover {
+                color: #87c450;
+                border-color: #87c450;
+                background: transparent;
+            }
+        }
+
+        .navbar-link {
+            height: 100%
+        }
+
+        .navbar-item {
+            display: flex;
+            align-items: center;
+            color: #515151;
+            border-top: 3px solid transparent;
+            height: 100%;
+        }
+
+        .navbar-dropdown .navbar-item {
+            border-top: none;
+        }
+    }
+}
+
+.button:focus,
+.button.is-focused,
+.button:focus:not(:active),
+.button.is-focused:not(:active), {
+    box-shadow: none;
+}
+
+.svg-icon {
+    width: 12px;
+    margin-right: 4px;
+    margin-top: 2px;
+}

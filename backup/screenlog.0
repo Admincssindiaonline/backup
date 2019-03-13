@@ -1,0 +1,13 @@
+[1m[22m
+[1mL A R A V E L  E C H O  S E R V E R[22m
+[1m[22m
+[36mversion 1.5.0[39m
+[36m[39m
+[36mStarting server...[39m
+[36m[39m
+[32m✔ [39m Running at localhost on port 6001
+[32m✔ [39m Listening for http events...
+[32m✔ [39m Listening for redis events...
+[36m[39m
+[36mServer ready![39m
+[36m[39m
